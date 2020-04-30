@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mappa-di-Karnaugh/static/css/main.a5e43b1c.chunk.css",
+    "main.js": "/Mappa-di-Karnaugh/static/js/main.33f9494b.chunk.js",
+    "main.js.map": "/Mappa-di-Karnaugh/static/js/main.33f9494b.chunk.js.map",
+    "runtime-main.js": "/Mappa-di-Karnaugh/static/js/runtime-main.83d1f6f2.js",
+    "runtime-main.js.map": "/Mappa-di-Karnaugh/static/js/runtime-main.83d1f6f2.js.map",
+    "static/js/2.4e013504.chunk.js": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js",
+    "static/js/2.4e013504.chunk.js.map": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js.map",
+    "index.html": "/Mappa-di-Karnaugh/index.html",
+    "precache-manifest.119c793922cb7bd7fafd0ef2ab1d2651.js": "/Mappa-di-Karnaugh/precache-manifest.119c793922cb7bd7fafd0ef2ab1d2651.js",
+    "service-worker.js": "/Mappa-di-Karnaugh/service-worker.js",
+    "static/css/main.a5e43b1c.chunk.css.map": "/Mappa-di-Karnaugh/static/css/main.a5e43b1c.chunk.css.map",
+    "static/js/2.4e013504.chunk.js.LICENSE.txt": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83d1f6f2.js",
+    "static/js/2.4e013504.chunk.js",
+    "static/css/main.a5e43b1c.chunk.css",
+    "static/js/main.33f9494b.chunk.js"
+  ]
+}
