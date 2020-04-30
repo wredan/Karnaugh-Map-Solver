@@ -3,4 +3,4 @@
 
 Fonte: Wikipedia
 
-##### [Clicca qui per visionare la demo](https://galileo.dmi.unict.it/projects/risolutore_mappa_di_karnaugh/ "Demo Mappa Di Karnaugh")
+##### [Clicca qui per visionare la demo](https://warcreed.github.io/Mappa-di-Karnaugh/ "Demo Mappa Di Karnaugh")
