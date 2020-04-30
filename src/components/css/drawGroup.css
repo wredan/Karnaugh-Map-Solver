@@ -1,0 +1,153 @@
+.backgr{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+  
+  }
+  .TopLeft, .TopRig, .BotRig, .BotLeft{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+  }
+  .TopLeft{
+    top: 6px;
+    left: 6px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-top-left-radius: 10px;
+  }
+  .TopRig{
+    top: 6px;
+    right: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-top-right-radius: 10px;
+  }
+  .BotLeft{
+    bottom: 6px;
+    left: 6px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-bottom-left-radius: 10px;
+  }
+  .BotRig{
+    bottom: 6px;
+    right: 6px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-bottom-right-radius: 10px;
+  }
+  .right, .left{
+    position: absolute;
+    width: 54px;
+    height: 61px;
+  }
+  .top, .bot{
+    position: absolute;
+    width: 61px;
+    height: 54px;
+  }
+  .right{
+    top: 0px;
+    right: 6px;
+    border-right: 2px solid;
+  }
+  .left{
+    top: 0px;
+    left: 6px;
+    border-left: 2px solid;
+  }
+  .bot{
+    bottom: 6px;
+    border-bottom: 2px solid;
+  }
+  .top{
+    top: 6px;
+    border-top: 2px solid;
+  }
+  .top-bot{
+    position: absolute;
+    width: 61px;
+    height: 45px;
+    right: 0px;
+    top: 6px;
+    bottom: 6px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+  }
+  .left-right{
+    position: absolute;
+    width: 45px;
+    height: 61px;
+    left: 6px;
+    right: 6px;
+    top: 0px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+  }
+  
+  .ClosedRig{
+    position: absolute;
+    width: 53px;
+    height: 45px;
+    bottom: 6px;
+    right: 6px;
+    top: 6px;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    border-top: 2px solid green;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .ClosedLeft{
+    position: absolute;
+    width: 53px;
+    height: 45px;
+    bottom: 6px;
+    left: 6px;
+    top: 6px;
+    border-bottom: 2px solid green;
+    border-left: 2px solid green;
+    border-top: 2px solid green;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .ClosedBot{
+    position: absolute;
+    width: 45px;
+    height: 53px;
+    bottom: 6px;
+    right: 6px;
+    left: 6px;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .ClosedTop{
+    position: absolute;
+    width: 45px;
+    height: 53px;
+    top: 6px;
+    right: 6px;
+    left: 6px;
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .monoGroup{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    bottom: 6px;
+    left: 6px;
+    top: 6px;
+    right: 6px;;
+    border: 2px solid green;
+    border-radius: 10px;
+  }

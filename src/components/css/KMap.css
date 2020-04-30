@@ -1,0 +1,46 @@
+  .kMap{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 0px;
+    left: 530px;
+  }
+  .Solution{
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    font-size: 20px;
+  }
+  .sol{
+    position: relative;
+    background-color: white;
+    width: auto;
+    height: 29px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  .groupSop, .groupPos, .plus{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 75px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: Arial;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  .groupPos{
+    width: 105px;
+  }
+  .plus{
+    color: black;
+    width: 20px;
+    font-size: 20px;
+    padding: 0px 0px;
+  }

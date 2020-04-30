@@ -1,0 +1,50 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .mapVariable, .mapVariableTop, .mapVariableBot{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border: 0px;
+    line-height: 0px;
+    font-style: Arial;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .mapVariableTop{
+    top: -15px;
+    left: 15px;
+  }
+  .mapVariableBot{
+    top: -40px;
+    left: -10px;
+  }
+  .map-col{
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: auto;
+    margin-right: 0px;
+  }
+  .map{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: white;
+  }
+  div.headerSquare hr {
+    position: relative;
+    display: table-cell;
+    background-color: #ccc;
+    top: -20px;
+    left: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    transform: rotate(45deg);
+    width: 60px;
+  }

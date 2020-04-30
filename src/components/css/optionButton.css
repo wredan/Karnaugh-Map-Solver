@@ -1,0 +1,78 @@
+.optionChoice {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0px 20px 25px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.mapType p {
+    font-style: Arial;
+    font-size: 20px;
+    color: black;
+}
+
+.buttonType,
+.buttonSettings,
+.elaborate {
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    width: 60px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.elaborate {
+    width: 90px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.btn-type {
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+}
+
+.btn-type:hover {
+    background-color: #275d8b;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-elaborate {
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+
+.btn-elaborate:hover {
+    background-color: #3e8e3e;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}

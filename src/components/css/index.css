@@ -1,0 +1,70 @@
+body {
+  background-color: #fff3e6;
+}
+
+#root {
+  position: relative;
+}
+
+.bodyPage {
+  position: relative;
+  display: block;
+  left: 170px;
+  top: 50px;
+  width: 1620px;
+  min-height: 100%;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 800px;
+  left: 500px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  #root {
+    zoom: 0.7;
+    -moz-transform: scale(0.7,0.7);
+  }
+  .bodyPage{
+    left: 0px;
+  }
+  .title {
+    left: 400px;
+  }
+  @-moz-document url-prefix() {
+    .bodyPage{
+      left: -220px;
+    }
+    .title {
+      left: 130px;
+    }
+  }
+  
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  #root {
+    zoom: 0.6;
+    -moz-transform: scale(0.6,0.6);
+  }
+  .bodyPage{
+    left: 0px;
+  }
+  .title {
+    left: 400px;
+  }
+  @-moz-document url-prefix() {
+    .bodyPage{
+      left: -290px;
+    }
+    .title {
+      left: 80px;
+    }
+  }
+}

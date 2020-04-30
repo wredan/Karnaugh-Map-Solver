@@ -1,0 +1,55 @@
+.truthTable {
+  position: relative;
+  float: left;
+  height: auto;
+  width: auto;
+  left: 50px;
+  top: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.bodyTruthTable {
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.table-col {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: auto;
+  margin-right: 0px;
+}
+
+.tableHead {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-right: 34px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-col-selButton {
+  position: absolute;
+  display: inline-block;
+  width: 62px;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+.nameTab{
+  position: relative;
+  margin: 0px;
+  width: 220px;
+  left: 45px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-style: Arial;
+  font-weight: bold;
+}

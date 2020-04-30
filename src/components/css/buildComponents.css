@@ -1,0 +1,73 @@
+.selectionButton{
+    display: block;
+    height: 37px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+  }
+  .selectionButton button{
+    position: relative;
+    width: 100%;
+    height: 80%;
+  }
+
+ .btn-Tab, .btnMap{
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+ }
+
+ .btnMap{
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 0;
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: -2px;
+ }
+ .btn-Tab:hover, .btnMap:hover{
+  background-color: #e6e6e6;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 0px 0px 0 rgba(0,0,0,0.19);
+ }
+
+ .square, .mapSquare, .headerSquare {
+    position: relative;
+    float: left;
+    line-height: 34px;
+    height: 38px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 38px;
+  }
+  
+  .mapSquare, .headerSquare {
+    height: 61px;
+    width: 61px;
+    border: 1px solid #999;
+    line-height: 60px;
+    font-style: Arial;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .headerSquare{
+    border: 0px;
+    height: 62px;
+    width: 62px;
+  }
+  .tableFont{
+    font-style: Arial;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #e6ecff;
+  }
