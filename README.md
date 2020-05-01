@@ -1,6 +1,57 @@
-## Risolutore Mappa Di Karnaugh
->La mappa di Karnaugh è un metodo di rappresentazione esatta di sintesi di reti combinatorie a uno o più livelli. Una tale mappa costituisce una rappresentazione visiva di una funzione booleana in grado di mettere in evidenza le coppie di mintermini o di maxtermini a distanza di Hamming unitaria (ovvero di termini che differiscono per una sola variabile binaria (o booleana)). 
+## Karnaugh Map Solver
+[Click here to open demo](https://warcreed.github.io/Mappa-di-Karnaugh/ "Demo Mappa Di Karnaugh")
 
-Fonte: Wikipedia
+>The Karnaugh map (KM or K-map) is a method of simplifying Boolean algebra expressions. The Karnaugh map reduces the need for extensive calculations by taking advantage of humans' pattern-recognition capability. It also permits the rapid identification and elimination of potential race conditions.
 
-##### [Clicca qui per visionare la demo](https://warcreed.github.io/Mappa-di-Karnaugh/ "Demo Mappa Di Karnaugh")
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Karnaugh_map "Karnaugh map")
+
+## User Guide
+
+### Introduction
+
+_Karnaugh maps solver_ is a web app that takes the truth table of a function as input, transposes it onto the respective Karnaugh map and finds the minimum forms SOP and POS according to the visual resolution method by Maurice Karnaugh, American physicist and mathematician.
+
+The program is presented as a web app, therefore executable on most of the internet browsers.
+
+### Interface and utilization
+
+The software interface consists of a single main screen, in which all actions can be performed.
+
+It is divided into:
+
+*   Truth table, where it is possible, for each row, assign a value between 0, 1 and X, which will be reported on the map.
+*   Map of Karnaugh, where for each cell, it is possible to modify the internal values between 0, 1 and X, synchronously with the truth table. It will display the groups formed by the calculation of the solution.
+*   Selection menu, where you can choose which type of map to display (2, 3 or 4 variables), choose between SOP and POS form, fill the entire map with 0, 1 or X, process the solution according to the chosen criteria.
+*   At the bottom of the page the solution will appear, identified by the colored groups that are the same of group colors in the map.
+
+### Program functioning
+
+It is possible to select to assign the values between 0, 1 and X to every single combination of input both in the truth table and on the map. The table and the map will be synchronized, so that the user is free to choose his own method of input.
+
+![The image shows the synchronized table and map](doc/img/1.jpg)  
+
+You can click the button **Elabora** when the criteria are set in the setup menu on the right side of the page.
+
+![The image shows the menu of choice](doc/img/2.jpg)  
+
+The solution will be obtained divided into colored groups, that identifies the solution for each corresponding group drawn on the map.
+
+![The image shows the solution shown below and on the map](doc/img/3.jpg)
+
+## Installation notes
+
+### Minimum system requirements
+The solver can be used online through any browser, it needs [Node.js](https://nodejs.org/en/) to run offline.
+
+### Installation
+*   If [Node.js](https://nodejs.org/it/) is not installed, you need to install it.
+*   Open the terminal in the folder where you cloned this project.
+*   Type `npm i jquery --save`
+### Execution
+*   Open the terminal in the folder where you cloned this project.
+*   Type in terminal `npm start` and the app will be showed on http://localhost:3000. If nothing appears, just wait for the initialization times.
+
+## Developed by
+* [Rosario Scavo](https://github.com/PerseRos "PerseRos")
+* [Danilo Santitto](https://github.com/Warcreed "Warcreed")
+* [Simone Torrisi](https://github.com/Quezal17 "Quezal17")

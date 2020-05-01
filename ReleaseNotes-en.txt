@@ -1,0 +1,32 @@
+﻿Karnaugh maps solver Release Notes 
+Version 1.0 
+
+Software architecture: 
+
+  Software realized through:
+  - React https://reactjs.org/
+  - JQuery https://jquery.com/
+  - Html and css
+
+The main React components are KarnaughMap (file KMap.js), where program logic run,
+TruthTable (same name as file) makes the truth table, Map makes the map,
+OptionButton describes the option buttons on the right of screen.
+
+Programming techniques:
+
+   Designed according to React components, with entry point in index that generates all components in cascade,
+   using jQuery to modify the graphics in an immediate way.
+   Javascript manages the logic of the solver.
+
+Used IDE:
+
+    - Visual Studio code
+
+Testing 
+
+   Tested on google chrome and microsoft edge, should not be any problem with other browsers.
+
+Ideas for future implementations: 
+
+  - Implementations of indifference condition.
+  - Development of the map resolution up to the n variables.

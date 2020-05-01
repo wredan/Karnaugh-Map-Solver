@@ -1,0 +1,33 @@
+﻿Note di rilascio del Risolutore Mappe di Karnaugh
+Versione 1.0 
+
+Architettura del software 
+
+  Software realizzato tramite:
+  - React https://reactjs.org/
+  - JQuery https://jquery.com/
+  - Html e css
+
+Le componenti di React principali sono KarnaughMap, nel file KMap.js, che svolge la logica del programma,
+TruhTable, nel corrispettivo file, che crea la tabella di verità, Map crea la mappa,
+OptionButton descrive la logica dei bottoni di opzione presenti a destra della schermata.
+
+   
+Tecniche di programmazione 
+
+   Progettazione secondo componenti React, con punto di ingresso in index che genera a cascata tutti 
+   i componenti, utilizzo di jQuery per modificare la grafica in maniera immediata.
+   Javascript gestisce la logica del risolutore.
+
+IDE utilizzato:
+
+    - Visual Studio code
+
+Collaudi:
+
+   Collaudato su google chrome e microsoft edge, non si dovrebbero riscontrare problemi in altri browser.
+
+Idee per ulteriori sviluppi:
+
+  - Implementazione delle condizioni di indifferenza
+  - Sviluppo della risoluzione della mappa oltre le 4 variabili.
