@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Mappa-di-Karnaugh/static/css/main.a5e43b1c.chunk.css",
-    "main.js": "/Mappa-di-Karnaugh/static/js/main.1b2bee0c.chunk.js",
-    "main.js.map": "/Mappa-di-Karnaugh/static/js/main.1b2bee0c.chunk.js.map",
-    "runtime-main.js": "/Mappa-di-Karnaugh/static/js/runtime-main.83d1f6f2.js",
-    "runtime-main.js.map": "/Mappa-di-Karnaugh/static/js/runtime-main.83d1f6f2.js.map",
-    "static/js/2.4e013504.chunk.js": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js",
-    "static/js/2.4e013504.chunk.js.map": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js.map",
-    "index.html": "/Mappa-di-Karnaugh/index.html",
-    "precache-manifest.b0ee74396fcd252e930b9cdc21f48b16.js": "/Mappa-di-Karnaugh/precache-manifest.b0ee74396fcd252e930b9cdc21f48b16.js",
-    "service-worker.js": "/Mappa-di-Karnaugh/service-worker.js",
-    "static/css/main.a5e43b1c.chunk.css.map": "/Mappa-di-Karnaugh/static/css/main.a5e43b1c.chunk.css.map",
-    "static/js/2.4e013504.chunk.js.LICENSE.txt": "/Mappa-di-Karnaugh/static/js/2.4e013504.chunk.js.LICENSE.txt"
+    "main.css": "/Karnaugh-Map-Solver/static/css/main.a5e43b1c.chunk.css",
+    "main.js": "/Karnaugh-Map-Solver/static/js/main.1b2bee0c.chunk.js",
+    "main.js.map": "/Karnaugh-Map-Solver/static/js/main.1b2bee0c.chunk.js.map",
+    "runtime-main.js": "/Karnaugh-Map-Solver/static/js/runtime-main.a5aa32ab.js",
+    "runtime-main.js.map": "/Karnaugh-Map-Solver/static/js/runtime-main.a5aa32ab.js.map",
+    "static/js/2.4e013504.chunk.js": "/Karnaugh-Map-Solver/static/js/2.4e013504.chunk.js",
+    "static/js/2.4e013504.chunk.js.map": "/Karnaugh-Map-Solver/static/js/2.4e013504.chunk.js.map",
+    "index.html": "/Karnaugh-Map-Solver/index.html",
+    "precache-manifest.38ef45cca22d736b75be58e8cedb548e.js": "/Karnaugh-Map-Solver/precache-manifest.38ef45cca22d736b75be58e8cedb548e.js",
+    "service-worker.js": "/Karnaugh-Map-Solver/service-worker.js",
+    "static/css/main.a5e43b1c.chunk.css.map": "/Karnaugh-Map-Solver/static/css/main.a5e43b1c.chunk.css.map",
+    "static/js/2.4e013504.chunk.js.LICENSE.txt": "/Karnaugh-Map-Solver/static/js/2.4e013504.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83d1f6f2.js",
+    "static/js/runtime-main.a5aa32ab.js",
     "static/js/2.4e013504.chunk.js",
     "static/css/main.a5e43b1c.chunk.css",
     "static/js/main.1b2bee0c.chunk.js"
