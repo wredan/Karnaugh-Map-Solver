@@ -8,21 +8,21 @@ export default class OptionButton extends React.Component {
         <div>
         <div className="optionChoice">
           <div className="mapType">
-            <p> Scegli il tipo di mappa da visualizzare (numero di variabili): </p>
+            <p> Choose map type to display (variables number): </p>
             <div>
               <div className="buttonType"><button className="btn-type" onClick={() => this.props.setTypeMap(2)}>2</button></div>
               <div className="buttonType"><button className="btn-type" onClick={() => this.props.setTypeMap(3)}>3</button></div>
               <div className="buttonType"><button className="btn-type" onClick={() => this.props.setTypeMap(4)}>4</button></div>
             </div>
             <div>
-              <p>Risultato in forma: {this.props.typeSol}</p>
+              <p>Form: {this.props.typeSol}</p>
               <div >
                 <div className="buttonSettings"><button className="btn-type" onClick={() => this.props.setTypeSol("SOP")}>SOP</button></div>
                 <div className="buttonSettings"><button className="btn-type" onClick={() => this.props.setTypeSol("POS")}>POS</button></div>
               </div>
             </div>
             <div>
-              <p>Impostare la mappa a valori tutti: </p>
+              <p>Set map to all: </p>
               <div >
                 <div className="buttonSettings"><button className="btn-type" onClick={() => this.props.setMatrixSquare(0)}> 0</button></div>
                 <div className="buttonSettings"><button className="btn-type" onClick={() => this.props.setMatrixSquare(1)}> 1</button></div>
@@ -30,9 +30,9 @@ export default class OptionButton extends React.Component {
               </div>
             </div>
             <div>
-              <p>Ottenere il risultato: </p>
+              <p>Get the result: </p>
               <div>
-                <div className="elaborate"><button className="btn-elaborate" id="elabora" onClick={(val) => this.props.onClick(val)}>Elabora</button></div>
+                <div className="elaborate"><button className="btn-elaborate" id="elabora" onClick={(val) => this.props.onClick(val)}>Process</button></div>
               </div>
             </div>
           </div>

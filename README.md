@@ -30,7 +30,7 @@ It is possible to set {0,1,X} values to every single combination of input both i
 
 ![The image shows the synchronized table and map](doc/img/1.jpg)
 
-You can click the button **Elabora**, in the setup menu on the right side of the page, when the criteria are set.
+You can click the button **Process**, in the setup menu on the right side of the page, when the criteria are set.
 
 ![The image shows the menu of choice](doc/img/2.jpg)  
 

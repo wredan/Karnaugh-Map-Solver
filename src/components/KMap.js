@@ -906,7 +906,7 @@ export default class KarnaughMap extends React.Component {
           if(i!==vettoreSol.length-1) $("#sol").append("<div class='plus'> "+s+" </div>"); //aggiunge il simbolo deciso ad inizio metodo, a seconda del tipo di sol scelto
         }
       }
-      $("#costo").html("Costo dei letterali: "+costo); //stampa il costo dei letterali
+      $("#costo").html("Literal Cost: "+costo); //stampa il costo dei letterali
 
       //pone la soluzione più o meno centralmente sotto la mappa, in modo da evitare che incrementando il numero di elementi, vada a rovinare il layout
       $(".Solution").css("left", parseInt($(".Solution").css("left"))-parseInt($(".Solution").css("width"))/2);
@@ -922,9 +922,9 @@ export default class KarnaughMap extends React.Component {
       let i = 0; //usata come key
       return (
         <div key={i++}>
-            <div className="title"><h1> Risolutore Mappa di Karnaugh </h1></div>
+            <div className="title"><h1> Karnaugh Map Solver </h1></div>
           <div className="bodyPage" key={i++}>
-            <p className="nameTab"> Tabella di Verità </p>
+            <p className="nameTab"> Truth Table </p>
             <div className="truthTable" key={i++}>
               <TruthTable
                 squares={values}
