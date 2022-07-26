@@ -1,5 +1,5 @@
 ## Karnaugh Map Solver
-[Click here to open demo](https://warcreed.github.io/Karnaugh-Map-Solver/ "Demo Mappa Di Karnaugh")
+[Click here to open demo](https://wredan.github.io/Karnaugh-Map-Solver/ "Demo Karnaugh Map")
 
 >The Karnaugh map (KM or K-map) is a method of simplifying Boolean algebra expressions. The Karnaugh map reduces the need for extensive calculations by taking advantage of humans' pattern-recognition capability. It also permits the rapid identification and elimination of potential race conditions.
 
@@ -53,5 +53,5 @@ The solver can be used online through any browser, it needs [Node.js](https://no
 
 ## Developed by
 * [Rosario Scavo](https://github.com/rosarioscavo "Rosario Scavo")
-* [Danilo Santitto](https://github.com/Warcreed "Warcreed")
+* [Danilo Santitto](https://github.com/wredan "Wredan")
 * [Simone Torrisi](https://github.com/Quezal17 "Quezal17")
